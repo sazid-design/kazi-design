@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: url("../images/kazi5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.title-holder {
+  position: relative;
+  height: 20%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgb(32, 29, 29);
+}
+
+.title {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  font-size: 70px;
+  color: aliceblue;
+  font-family: "Black Ops One", cursive;
+}
+
+.nav-elements {
+  height: 25%;
+  margin: auto;
+  width: 50%;
+  font-size: 40px;
+  font-family: "Cinzel Decorative", cursive;
+}
+
+.dropdown {
+  margin: auto;
+}
+
+.mobile {
+  position: absolute;
+  right: 50px;
+}
+
+.mobile > h5 {
+  color: rgb(130, 134, 138);
+}
